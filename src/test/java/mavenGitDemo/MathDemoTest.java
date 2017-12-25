@@ -13,4 +13,20 @@ public class MathDemoTest {
 	public void add() {
 		assertEquals(11, mDemoObj.addInts());
 	}
+	
+
+	@Test
+	public void substract() {
+		assertEquals(8, mDemoObj.substractInts());
+	}
+	
+	@Test
+	public void multiply() {
+		assertEquals(20, mDemoObj.multInts());
+	}
+	
+	@Test
+	public void divide() {
+		assertEquals(5, mDemoObj.divideInts());
+	}
 }
