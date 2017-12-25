@@ -11,7 +11,7 @@ public class MathDemoTest {
 	
 	@Test
 	public void add() {
-		assertEquals(11, mDemoObj.addInts());
+		assertEquals(12, mDemoObj.addInts());
 	}
 	
 
